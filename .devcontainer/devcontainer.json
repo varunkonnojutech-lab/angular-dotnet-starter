@@ -1,0 +1,1 @@
+{"customizations":{"vscode":{"extensions":["ms-dotnettools.csharp"]}},"features":{"ghcr.io/devcontainers/features/node:1":{"version":"20"}},"image":"mcr.microsoft.com/devcontainers/dotnet:1-8-bookworm","name":"angular-dotnet-starter","postCreateCommand":"(cd backend && dotnet restore) && (cd frontend && npm install || true)"}
